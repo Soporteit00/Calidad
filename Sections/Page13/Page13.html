@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Page13.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Gestión de calidad</title>
+</head>
+<body>
+
+    <div class="menu">
+        <nav>
+          <a href="#">SISTEMA GESTIÓN DE CALIDAD</a>
+        </nav>      
+      </div>
+
+      <div class="container">
+
+        <p class="bi bi-exclamation-circle-fill">Toca el boton para escuchar la información.</p>
+
+        <div class="row justify-content-center">
+
+            <h1>MAPA DE PROCESOS</h1>
+            
+            <div>
+
+                <button class="btn-class-name" id="icon" id="reproducir"   onmouseover="reproducirAudio()"     onmouseout="pausarAudio()">
+                    <span class="back"></span>
+                    <span class="front"></span>
+                  </button>
+
+                  <audio src="../../img/Page13/Mapa.mp4" id="audio"></audio>
+
+            </div>
+
+            <div class="procesos">
+
+                <img src="../../img/Page13/Mapa de procesos.png" alt="" class="ImgP">
+
+            </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer">
+        <nav>
+          <a href="../../index.html"><img src="../../img/Index/Imagen1.png" alt="" class="LogoFooter"></a>
+          <a href="../../Sections/Page12/Page12.html" class="left bi bi-arrow-left-circle-fill"></a>
+          <a class="right" href="../Page14/Page14.html">
+            <button  class="btns bi bi-arrow-right-circle-fill" id="avanzarBtn" disabled></button></a>
+        </nav>      
+      </div>
+
+
+      <script src="./Page13.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>

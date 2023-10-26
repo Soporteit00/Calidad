@@ -1,0 +1,212 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 89%;
+	height: 45px;
+	background-color: #0A2D72;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family:  'Tilt Neon', sans-serif;
+}
+
+.LogoFooter{
+    width: 50%;
+    margin-left: 195%;
+}
+
+.footer{
+   margin-top: 2%;
+}
+
+.container{
+    /* background-image: url('./img/Index/Inicio.jpg'); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 79%;
+    margin-left: 12%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+  font-size: 50px;
+  margin-left: -37%;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+.right{
+  font-size: 50px;
+  margin-left:55%;
+  color: #ffffff;
+  position: absolute;
+  transform: translateY(-40%);
+  border-radius: 100%;
+}
+
+.right:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+.left:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+
+.btns{
+  width: 10%;
+  height:8%;
+  font-size: 48px;
+  margin-left:55%;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+}
+
+.btns:hover{
+  color: #f9b515;
+  cursor: pointer;
+}
+
+
+h1{
+    font-family:  'Tilt Neon', sans-serif;
+    text-align: center;
+} 
+
+h2{
+    font-family:  'Tilt Neon', sans-serif;
+    text-align: center;
+} 
+
+p{
+    font-family:  'Tilt Neon', sans-serif;
+    text-align: center;
+    font-size: 30px; 
+}
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+
+  }
+  
+  .card1 {
+    width: 270px;
+    height: 270px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 300px 5px 5px 5px;
+    box-shadow: rgba(3, 3, 65, 0.692) 0px 2px 5px -1px, rgba(0, 0, 0, 0.781) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  
+  .card2 {
+    width: 270px;
+    height: 270px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 300px 5px 5px;
+    box-shadow: rgba(3, 3, 65, 0.692) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  
+  .card3 {
+    width: 270px;
+    height: 270px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 300px;
+    box-shadow: rgba(3, 3, 65, 0.692) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+
+  .card4 {
+    width: 270px;
+    height: 270px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 300px 5px;
+    box-shadow:rgba(3, 3, 65, 0.692) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0A2D72;
+  }
+  
+  .card1:hover  {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #f9b515;
+  }
+  
+  .card2:hover  {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #f9b515;
+  }
+  
+  .card3:hover  {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0A2D72;
+  }
+  
+  .card4:hover {
+    fill: white;
+  }
