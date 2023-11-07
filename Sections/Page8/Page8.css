@@ -31,11 +31,11 @@ nav a {
 }
 
 .footer{
-   margin-top: 6%;
+   margin-top: 2%;
 }
 
 .container{
-    /* background-image: url('./img/Index/Inicio.jpg'); */
+    /* background-image: url('../../img/Page8/satisfaccion.png'); */
     background-position: top center;
     background-size: contain;
     background-attachment: fixed;
@@ -109,3 +109,9 @@ p{
     width: 100px;
     margin-left: 60%;
 } */
+
+.Img{
+    width: 1000px;
+    margin-top: 2%;
+    margin-left: 10%;
+}

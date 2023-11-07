@@ -31,7 +31,7 @@ nav a {
 }
 
 .footer{
-   margin-top: 8%;
+   margin-top: 4%;
 }
 
 .container{
@@ -100,4 +100,8 @@ p{
 .ObjetivoV{
     width: 500px;
     height: 300px;
+}
+
+.objetivo3{
+    width: 500px;
 }

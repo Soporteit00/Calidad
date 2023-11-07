@@ -31,7 +31,7 @@ nav a {
 }
 
 .footer{
-   margin-top: 4%;
+   margin-top: 9%;
 }
 
 .container{
@@ -121,4 +121,15 @@ p{
 .Proceso{
     margin-top: 8%;
     margin-left: 25%;
+}
+
+.Img{
+  width: 600px;
+  margin-top: 14%;
+  height: 100%;
+}
+.Img2{
+  width: 660px;
+  height: 100%;
+  margin-top: 14%;
 }

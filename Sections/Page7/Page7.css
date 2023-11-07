@@ -31,11 +31,11 @@ nav a {
 }
 
 .footer{
-   margin-top: 3%;
+   margin-top: -1%;
 }
 
 .container{
-    background-image: url('../../img/Page7/cliente.jpg');
+    /* background-image: url('../../img/Page7/Parte\ Interesasda.png'); */
     background-position: top center;
     background-size: contain;
     background-attachment: fixed;
@@ -153,4 +153,8 @@ p{
     transform: translate(3px , 3px);
     transition-duration: .3s;
     box-shadow: 2px 2px 0px rgb(140, 32, 212);
+  }
+
+  .Img{
+    margin-left: 5%;
   }

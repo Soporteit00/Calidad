@@ -30,7 +30,7 @@ nav a {
 }
 
 .footer{
-   margin-top: 4%;
+   margin-top: 1%;
 }
 
 .container{
@@ -118,14 +118,13 @@ p{
 }
 
 .Import{
-    width: 400px;
+    width: 150px;
     margin-left: 40%;
 }
 
 
 .button {
     position: relative;
-    padding: 13px 35px;
     background: #f9b515;
     font-size: 17px;
     font-weight: 900;
